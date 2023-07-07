@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+  div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;outline-width: 0ch;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Daniel buggati company</h2>
+  <!-- Trigger the modal with a button -->
+  
+  
+<div class="img">
+  
+    <img src="my own.jpeg" alt="" width="300" height="200">
+  </a>
+  
+</div>
+
+<div class="img">
+
+    <img src="i own.jpeg" alt="" width="600" height="400">
+  </a>
+  
+</div>
+
+<div class="img">
+    <img src="me own.jpeg" alt="" width="600" height="400">
+  </a>
+  
+</div>
+
+<div class="img">
+
+    <img src="our own.jpeg"  width="600" height="400">
+  </a>
+  
+</div>
+
+<br>
+<br>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+          
+        </div>
+        <br>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user">
+                <br>
+                
+                <br>
+
+                <br>
+              </span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <br>
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <p>Not a member? <a href="login1.html">Sign Up</a></p>
+          <p>Forgot <a href="login2.html">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+
+</div> 
+</div>
+ 
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_modal2&stacked=h by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Mar 2016 11:05:05 GMT -->
+</html>
+
+
+
